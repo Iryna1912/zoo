@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+
+  background: #1e1b43;
+}
+
+.zoo_ul {
+  padding: 0;
+  margin: 0 auto;
+
+  list-style: none;
+
+  display: flex;
+  width: calc(140px * 4 + 20px * 3);
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.zoo_li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zoo_img {
+  border: 20px solid #ffffff;
+  object-fit: cover;
+}
+
+footer {
+  background: rgb(171, 171, 171);
+  border-top: 10px solid black;
+  margin-bottom: 0;
+  /* flex: 2; */
+}
